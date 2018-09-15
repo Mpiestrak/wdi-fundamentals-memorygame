@@ -19,11 +19,15 @@ nav {
 a {
 	text-decoration: none;
 	margin: 0 20px;
-	color: #FFFFFF;
+	color: #00A6B3;
 	border-bottom: 2px solid transparent;
 }
 
 a:hover {
+	border-color: #00A6B3;
+}
+
+.links:hover {
 	border-color: white;
 }
 
@@ -42,6 +46,7 @@ h1 {
 	font-weight:600;
 	font-size: 18px;
 	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 main {
@@ -100,4 +105,18 @@ footer {
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+button {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	font-size: 50px;
+	padding: 50px, 0px;
+	margin: 50px;
+}
+/*.bio {*/
+	font-style: italic;
+	color: #FFFFFF;
+	background-color: #00A6B3;
+	
+
 }
